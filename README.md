@@ -1,16 +1,40 @@
-# React + Vite
+# 🎯 JEE / NEET Marks Calculator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React-based web application that helps students calculate their expected JEE/NEET marks instantly using the standard marking scheme.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🎓 JEE / NEET score calculation
+- ✅ Correct answer tracking (+4 marks)
+- ❌ Wrong answer tracking (-1 mark)
+- 👤 Student name input
+- 📊 Live score updates
+- 🎨 Modern responsive UI
+- ⚡ Built with React + Vite
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📸 Preview
 
-## Expanding the ESLint configuration
+The application allows users to:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Enter their name.
+2. Click **Correct +4** for every correct answer.
+3. Click **Wrong -1** for every incorrect answer.
+4. Instantly view:
+   - Total Score
+   - Correct Answers
+   - Wrong Answers
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+- React.js
+- Vite
+- CSS3
+- JavaScript (ES6+)
+
+
